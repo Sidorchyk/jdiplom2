@@ -1,0 +1,28 @@
+{% extends 'main/base.html' %}
+{% load static %}
+
+{% block title %}
+    {{ title }}
+{% endblock %}
+
+{% block link %}
+    <link rel="stylesheet" href="{% static 'css/main/profile.css' %}">
+{% endblock %}
+
+{% block content %}
+    <div class="infa" >
+        Профиль пользователя:
+    </div>
+    <div class="infa" >
+        username:  {{ curent_user.username }}
+    </div>
+    <div class="infa">
+        телефон:  {{ curent_user.phone }}
+    </div>
+    <div class="infa">
+        telegram_id:  {{ curent_user.telegram_id }}
+    </div>
+    <div class="infa">
+        email:  {{ curent_user.email }}
+    </div>
+{% endblock %}

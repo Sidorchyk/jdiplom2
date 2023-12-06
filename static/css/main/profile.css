@@ -1,0 +1,20 @@
+.infa {
+    width: 550px;
+    /*height: 30px;*/
+    border: 2px solid #ffdf7e;
+    margin: 10px;
+    padding: 10px;
+
+
+    /*opacity: 1;*/
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    overflow: visible;
+    mix-blend-mode: multiply;
+
+    background: #9fcdff;
+    /*background: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1));*/
+
+
+
+
+}
